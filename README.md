@@ -12,6 +12,13 @@ Three degrees of complexity:
 <img src="./figures/simple_square.png" alt="simple square" width="1000"/>
 
 ---
+#### A square function based on a sin fct with three different frequencies 
+
+
+<img src="./figures/simple_square_threeStates.png" alt="simple square" width="1000"/>
+
+
+---
 
 #### A pulse-width modulated function based on sin function: 
 
