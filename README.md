@@ -4,35 +4,47 @@ Just a very basic data generator for generating datasets for regression tasks.
 
 Datasets can be exported as `.csv` into `data` directory.
 
+Dependencies for creating own derivatives of the datasets and to run the notebook are saved in `bgd.yml`
+
 ## Data
-Three degrees of complexity: 
+There are three different datasests with three degrees of complexity. 
 
-#### A square function based on a single sin function: 
+### A square function based on a single sin function with five frequencies: 
 
-<img src="./figures/simple_square.png" alt="simple square" width="1000"/>
+A square function based on a simple sinus function is derived and sampled for 50.000 steps.
 
----
-#### A square function based on a sin fct with three different frequencies 
+<img src="./figures/squ_sin.png" alt="simple square" width="1000"/>
 
+Five of the square functions with varying frequencies are appended to the dataset `sin_squ.csv`.
 
-<img src="./figures/simple_square_threeStates.png" alt="simple square" width="1000"/>
+<img src="./figures/squ_5sin.png" alt="simple square" width="1000"/>
 
-
----
-
-#### A pulse-width modulated function based on sin function: 
-
-The sin function for the pwm is the same for pulse width and square fct. There is a modulation parameter `a`.
-
-<img src="./figures/pwm.png" alt="pwm sin" width="1000"/>
 
 ---
 
-#### A pulse-width modulated function based on sin and tan function: 
+### A pulse-width modulated square function based on sin function: 
 
-A pwm function is based on sin and tan functions. There are modulation parameters `a` and `b`.
+A pulse width modulated square function based on a simple sinus function is derived and sampled for 50.000 steps.
+The parameter `a` influences the modulation.
 
-<img src="./figures/pwm_sin.png" alt="pwm sin tan" width="1000"/>
+<img src="./figures/pwm_sin.png" alt="pwm sin" width="1000"/>
+
+Five different frequencies are appended into the dataset `sin_pwm.csv`.
+
+<img src="./figures/pwm_5sin.png" alt="pwm sin" width="1000"/>
+
+---
+
+### A pulse-width modulated function based on sin and tan function: 
+
+A pulse width modulated square function based on a simple sinus and tangens function is derived and sampled for 50.000 steps.
+The parameters `a` and `b` influence the modulation.
+
+<img src="./figures/pwm_sin_tan.png" alt="pwm sin tan" width="1000"/>
+
+Five different frequencies are appended into the dataset `sin_tan_pwm.csv`.
+
+<img src="./figures/pwm_5sin_5tan.png" alt="pwm sin tan" width="1000"/>
 
 
 
