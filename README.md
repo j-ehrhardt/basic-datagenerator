@@ -9,7 +9,7 @@ Datasets can be exported as `.csv` into `data` directory.
 Dependencies for creating own derivatives of the datasets and to run the notebook are saved in `bgd.yml`
 
 
-## Very Basic Datagenerator
+## Polynomial-modulation Datagenerator
 There are three different datasests with three degrees of complexity. 
 
 ### Transforming a sin function with a first order polynom: 
@@ -63,7 +63,7 @@ Three functions with different parameter permutations are saved as `ds3o.csv`.
 
 
 
-## Basic Datagenerator
+## Pulse-width-modulation Datagenerator
 There are three different datasests with three degrees of complexity. 
 
 ### A square function based on a single sin function with five frequencies: 
